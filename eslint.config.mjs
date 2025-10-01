@@ -3,6 +3,9 @@ import js from '@eslint/js';
 import prettier from 'eslint-plugin-prettier';
 
 export default [
+  {
+    ignores: ['dist/**', 'build/**', 'node_modules/**']
+  },
   js.configs.recommended,
   {
     plugins: {
@@ -21,7 +24,8 @@ export default [
       globals: {
         ...globals.node,
         ...globals.es2023,
-        ...globals.jest
+        ...globals.jest,
+        ...globals.browser
       }
     },
     rules: {
