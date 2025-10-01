@@ -12,7 +12,7 @@ describe('All child classes', () => {
     { cls: Magician, type: 'Magician', attack: 10, defence: 40 },
     { cls: Daemon, type: 'Daemon', attack: 10, defence: 40 },
     { cls: Undead, type: 'Undead', attack: 25, defence: 25 },
-    { cls: Zombie, type: 'Zombie', attack: 40, defence: 10 },
+    { cls: Zombie, type: 'Zombie', attack: 40, defence: 10 }
   ];
 
   characters.forEach(({ cls, type, attack, defence }) => {

@@ -27,7 +27,7 @@ export default class Character {
 
   levelUp() {
     if (this.health <= 0) {
-      throw new Error("Нельзя повысить уровень мёртвого персонажа!");
+      throw new Error('Нельзя повысить уровень мёртвого персонажа!');
     }
     this.level += 1;
     this.attack = Math.round(this.attack * 1.2);

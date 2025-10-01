@@ -16,7 +16,9 @@ describe('Character base class', () => {
   });
 
   test('слишком длинное имя выбрасывает ошибку', () => {
-    expect(() => new Character('VeryLongName', 'Bowerman')).toThrow('Некорректное имя!');
+    expect(() => new Character('VeryLongName', 'Bowerman')).toThrow(
+      'Некорректное имя!'
+    );
   });
 
   test('неверный тип выбрасывает ошибку', () => {
