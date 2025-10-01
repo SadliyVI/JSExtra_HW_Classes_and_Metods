@@ -1,0 +1,1 @@
+[![jsextra_hw_classes_and_metods](https://github.com/SadliyVI/JSExtra_HW_Classes_and_Metods/actions/workflows/main.yml/badge.svg)](https://github.com/SadliyVI/JSExtra_HW_Classes_and_Metods/actions/workflows/main.yml)
