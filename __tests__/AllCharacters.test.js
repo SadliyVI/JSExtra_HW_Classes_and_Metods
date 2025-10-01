@@ -18,7 +18,7 @@ describe('All child classes', () => {
   characters.forEach(({ cls, type, attack, defence }) => {
     const validName = `Hero${type.slice(0, 3)}`;
 
-    test(`создание ${type}`, () => {
+    test(`создание экземпляра ${type}`, () => {
       const hero = new cls(validName);
       expect(hero.name).toBe(validName);
       expect(hero.type).toBe(type);
