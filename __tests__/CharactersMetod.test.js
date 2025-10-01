@@ -10,7 +10,7 @@ describe('Character methods', () => {
   });
 
   describe('levelUp()', () => {
-    test('повышает уровень, улучшает stats и восстанавливает здоровье', () => {
+    test('повышает уровень, улучшает атаку и защиту и восстанавливает здоровье', () => {
       hero.health = 50;
       hero.levelUp();
       expect(hero.level).toBe(2);
